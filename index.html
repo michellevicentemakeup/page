@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michelle Vicente | Hair & Makeup Artist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <img src="logo.png" alt="Michelle Vicente">
+            </div>
+            <div class="loader-spinner">
+                <div class="spinner-circle"></div>
+                <div class="spinner-circle"></div>
+                <div class="spinner-circle"></div>
+            </div>
+            <p class="loader-text">Loading Beauty & Elegance</p>
+        </div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="hero-logo.png" alt="Michelle Vicente - Professional Hair & Makeup Artist">
+                </a>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <button class="mobile-nav-close">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul class="mobile-nav-links">
+            <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+            <li><a href="#about" class="mobile-nav-link">About</a></li>
+            <li><a href="#services" class="mobile-nav-link">Services</a></li>
+            <li><a href="#testimonials" class="mobile-nav-link">Testimonials</a></li>
+            <li><a href="gallery.html" class="mobile-nav-link">Gallery</a></li>
+            <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-nav-contact">
+            <p><i class="fas fa-phone"></i> (310) 555-1234</p>
+            <p><i class="fas fa-envelope"></i> hello@michellevicente.com</p>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-particles" id="heroParticles"></div>
+        <div class="container">
+            <div class="hero-content">
+               <!-- <div class="hero-logo">
+                    <img src="hero-logo.png" alt="Michelle Vicente - Professional Hair & Makeup Artist" class="hero-title-image">
+                </div> -->
+					 <h1 class="hero-title">Michelle Vicente</h1>
+                <p class="hero-subtitle">Professional Hair & Makeup Artist</p>
+                <p class="hero-text">Creating beauty with passion and precision for over 10 years. Specializing in bridal, editorial, and special event styling.</p>
+                <div class="hero-buttons">
+                    <a href="gallery.html" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-line"></div>
+            <p>Scroll to explore</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">About</span>
+                <h2 class="section-title">Michelle Vicente</h2>
+                <div class="section-divider">
+                    <div class="divider-line"></div>
+                    <div class="divider-diamond"></div>
+                    <div class="divider-line"></div>
+                </div>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <div class="img-frame">
+                        <img src="about.jpg" alt="Michelle Vicente" class="elegant-img">
+                        <div class="frame-decoration"></div>
+                    </div>
+                    <div class="experience-badge">
+                        <span>10+</span>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p class="about-intro">With a passion for enhancing natural beauty, Michelle Vicente brings over a decade of experience to every client. Her journey began in Paris, where she trained under renowned makeup artists before establishing her own studio.</p>
+                    <p>Michelle's philosophy centers on enhancing each client's unique features, creating looks that are both timeless and modern. She believes in the transformative power of makeup and hairstyling to boost confidence and create unforgettable moments.</p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-award"></i>
+                            <h4>Certified Professional</h4>
+                            <p>Internationally trained with multiple certifications</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-star"></i>
+                            <h4>Featured Work</h4>
+                            <p>Published in Vogue, Elle, and Harper's Bazaar</p>
+                        </div>
+                    </div>
+                    <div class="signature">
+                        <p>Michelle Vicente</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding">
+        <div class="services-bg"></div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Services</span>
+                <h2 class="section-title">Beauty Services</h2>
+                <div class="section-divider">
+                    <div class="divider-line"></div>
+                    <div class="divider-diamond"></div>
+                    <div class="divider-line"></div>
+                </div>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">
+                            <i class="fas fa-ring"></i>
+                        </div>
+                    </div>
+                    <h3 class="service-title">Bridal Beauty</h3>
+                    <p class="service-desc">Complete bridal packages including trial sessions, day-of services, and touch-up kits. I work closely with each bride to create her dream look.</p>
+                    <ul class="service-features">
+                        <li>Pre-wedding consultation</li>
+                        <li>Trial session</li>
+                        <li>Day-of makeup & hair</li>
+                        <li>Touch-up kit</li>
+                    </ul>
+                    <div class="service-hover-effect"></div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                    </div>
+                    <h3 class="service-title">Editorial & Photoshoots</h3>
+                    <p class="service-desc">Professional makeup for editorial, commercial, and personal photoshoots designed to look perfect under any lighting conditions.</p>
+                    <ul class="service-features">
+                        <li>Editorial makeup</li>
+                        <li>Commercial shoots</li>
+                        <li>Portfolio development</li>
+                        <li>Creative direction</li>
+                    </ul>
+                    <div class="service-hover-effect"></div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">
+                            <i class="fas fa-glass-cheers"></i>
+                        </div>
+                    </div>
+                    <h3 class="service-title">Special Events</h3>
+                    <p class="service-desc">From red carpet events to milestone celebrations, I create stunning looks that ensure you stand out for all the right reasons.</p>
+                    <ul class="service-features">
+                        <li>Red carpet glam</li>
+                        <li>Gala events</li>
+                        <li>Milestone celebrations</li>
+                        <li>Group bookings</li>
+                    </ul>
+                    <div class="service-hover-effect"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Testimonials</span>
+                <h2 class="section-title">Client Reviews</h2>
+                <div class="section-divider">
+                    <div class="divider-line"></div>
+                    <div class="divider-diamond"></div>
+                    <div class="divider-line"></div>
+                </div>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonials-container">
+                    <div class="testimonial-card active">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Simple pero napakaganda! Minsan napapa double look ako. Akala ko hindi ako, ang ganda po kasi! . . . hindi po madamot sa retouch si Ma’am Michelle. Sisiguraduhin nya talagang maganda ka sa special event mo."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="clients/testi-01.jpg" alt="Ana Marie Punzalan – Estañol">
+                            </div>
+                            <div class="author-info">
+                                <h4>Ana Marie Punzalan – Estañol</h4>
+                                <p>Bride</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"The best si Ms. Michelle at yung assistant nya! Never silang nalate, sobrang chill nila mag make up sobrang nakuha nila yung expectation ko!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="clients/testi-02.jpg" alt="RC Hementera">
+                            </div>
+                            <div class="author-info">
+                                <h4>RC Hementera</h4>
+                                <p>Bride</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Ganda po ng airbrush ng MichelleVicentemakeup! Nacover ang darkspots at eyebags na normal sa mga ikakasal and long lasting din. Thanks po sa magandang service. You made my day more special."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="clients/testi-03.jpg" alt="Consuelo D. Saldi">
+                            </div>
+                            <div class="author-info">
+                                <h4>Consuelo D. Saldi</h4>
+                                <p>Bride</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+              <!--      <div class="testimonial-card">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Michelle transformed my look for my 50th birthday party. I received so many compliments and felt absolutely stunning. Her skill is unmatched!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Jennifer Lee">
+                            </div>
+                            <div class="author-info">
+                                <h4>Jennifer Lee</h4>
+                                <p>Special Event Client</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="testimonial-nav">
+                    <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="testimonial-dots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                        <span class="dot" data-index="3"></span>
+                    </div>
+                    <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Preview -->
+    <section class="gallery-preview section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Portfolio</span>
+                <h2 class="section-title">Featured Work</h2>
+                <div class="section-divider">
+                    <div class="divider-line"></div>
+                    <div class="divider-diamond"></div>
+                    <div class="divider-line"></div>
+                </div>
+            </div>
+            
+            <div class="gallery-grid" id="homeGallery">
+                <!-- Gallery items will be loaded via JavaScript -->
+            </div>
+            
+            <div class="text-center">
+                <a href="gallery.html" class="btn btn-primary with-arrow">
+                    View Full Gallery
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Contact</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-divider">
+                    <div class="divider-line"></div>
+                    <div class="divider-diamond"></div>
+                    <div class="divider-line"></div>
+                </div>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-intro">
+                        <h3>Let's Create Something Beautiful</h3>
+                        <p>I'd love to hear about your vision and help bring it to life. Whether it's for your wedding, a special event, or a creative project, let's discuss how we can work together.</p>
+                    </div>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-item-details">
+                                <h4>Studio Location</h4>
+                                <p>Michelle V Beauty Studio<br>
+									46 Librada St. Maria Socoro, Abangan Norte, Marilao, Bulacan
+								</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-item-details">
+                                <h4>Phone</h4>
+                                <p>(+63) 953-486-7871</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-item-details">
+                                <h4>Email</h4>
+                                <p>michellevicentemakeup@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-item-details">
+                                <h4>Studio Hours</h4>
+                                <p>By appointment only</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h4>Follow My Journey</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/michellevicentehmua" class="social-icon" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-icon" aria-label="Pinterest">
+                                <i class="fab fa-pinterest-p"></i>
+                            </a>
+                            <a href="#" class="social-icon" aria-label="TikTok">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-action">
+                    <div class="contact-action-card">
+                        <h3>Ready to Book?</h3>
+                        <p>For inquiries and bookings, please email me directly or call during studio hours. I typically respond within 24 hours.</p>
+                        <div class="action-buttons">
+                            <a href="mailto:hello@michellevicente.com" class="btn btn-primary">
+                                <i class="fas fa-envelope"></i>
+                                Send Email
+                            </a>
+                            <a href="tel:+13105551234" class="btn btn-secondary">
+                                <i class="fas fa-phone"></i>
+                                Call Now
+                            </a>
+                        </div>
+                        <p class="booking-note">For wedding bookings, please contact me at least 6 months in advance to secure your date.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html" class="logo">
+                        <img src="hero-logo.png" alt="Michelle Vicente - Professional Hair & Makeup Artist">
+                    </a>
+                    <p>Creating beauty with passion and precision</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4>Beauty Insights</h4>
+                    <p>Subscribe for beauty tips, trends, and special offers</p>
+                    <form id="newsletterForm" class="newsletter-form">
+                        <div class="newsletter-input">
+                            <input type="email" placeholder="Your Email" required>
+                            <button type="submit" aria-label="Subscribe">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Michelle Vicente. All rights reserved.</p>
+                <p>Professional Hair & Makeup Artist</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div class="modal" id="imageModal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImage" alt="Enlarged view">
+        <div class="modal-caption" id="modalCaption"></div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
