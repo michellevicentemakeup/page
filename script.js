@@ -25,8 +25,8 @@ const galleryImages = [
     { id: 8, src: "events/04.jpg", category: "events", title: "Formal Event Makeup", desc: "Elegant makeup for corporate events" },
     
     // Photoshoot Images
-    { id: 9, src: "photoshoot/01.jpg", category: "photoshoot", title: "Maternity Photoshoot", desc: "Natural glow for maternity portraits" },
-    { id: 10, src: "photoshoot/02.jpg", category: "photoshoot", title: "Family Portrait", desc: "Soft makeup for family photography" },
+//    { id: 9, src: "photoshoot/01.jpg", category: "photoshoot", title: "Maternity Photoshoot", desc: "Natural glow for maternity portraits" },
+  //  { id: 10, src: "photoshoot/02.jpg", category: "photoshoot", title: "Family Portrait", desc: "Soft makeup for family photography" },
     
     // Special Occasion Images
     { id: 11, src: "occasion/01.jpg", category: "occasion", title: "Anniversary Celebration", desc: "Elegant look for milestone celebrations" },
