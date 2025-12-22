@@ -17,20 +17,20 @@ const galleryImages = [
     { id: 2, src: "bridal/02.jpg", category: "bridal", title: "Natural Bridal Makeup", desc: "Minimalist beauty for a beach wedding" },
     { id: 3, src: "bridal/03.jpg", category: "bridal", title: "Classic Bridal Style", desc: "Timeless beauty for a traditional wedding" },
     { id: 4, src: "bridal/04.jpg", category: "bridal", title: "Soft Bridal Glam", desc: "Ethereal look for a garden wedding" },
- //   { id: 5, src: "bridal/05.jpg", category: "bridal", title: "Modern Bridal Makeup", desc: "Contemporary bridal look with a twist" },
-   // { id: 6, src: "bridal/06.jpg", category: "bridal", title: "Vintage Bridal Style", desc: "Retro-inspired bridal makeup" },
     
     // Event Makeup Images
-    { id: 7, src: "events/01.jpg", category: "events", title: "Special Event Makeup", desc: "Glamorous look for a gala event" },
-    { id: 8, src: "events/02.jpg", category: "events", title: "Evening Glamour", desc: "Sophisticated look for an evening event" },
-    { id: 9, src: "events/03.jpg", category: "events", title: "Party Makeup", desc: "Festive look for celebrations" },
-    { id: 10, src: "events/04.jpg", category: "events", title: "Formal Event Makeup", desc: "Elegant makeup for corporate events" },
-  //  { id: 11, src: "events/05.jpg", category: "events", title: "Red Carpet Look", desc: "Celebrity-inspired makeup for special occasions" },
-    { id: 12, src: "events/06.jpg", category: "events", title: "Night Out Makeup", desc: "Trendy look for social gatherings" },
+    { id: 5, src: "events/01.jpg", category: "events", title: "Special Event Makeup", desc: "Glamorous look for a gala event" },
+    { id: 6, src: "events/02.jpg", category: "events", title: "Evening Glamour", desc: "Sophisticated look for an evening event" },
+    { id: 7, src: "events/03.jpg", category: "events", title: "Party Makeup", desc: "Festive look for celebrations" },
+    { id: 8, src: "events/04.jpg", category: "events", title: "Formal Event Makeup", desc: "Elegant makeup for corporate events" },
     
-    // Additional categories can be added here in the future
-    // Example structure for new categories:
-    // { id: 13, src: "newcategory/01.jpg", category: "newcategory", title: "Title", desc: "Description" },
+    // Photoshoot Images
+    { id: 9, src: "photoshoot/01.jpg", category: "photoshoot", title: "Maternity Photoshoot", desc: "Natural glow for maternity portraits" },
+    { id: 10, src: "photoshoot/02.jpg", category: "photoshoot", title: "Family Portrait", desc: "Soft makeup for family photography" },
+    
+    // Special Occasion Images
+    { id: 11, src: "occasion/01.jpg", category: "occasion", title: "Anniversary Celebration", desc: "Elegant look for milestone celebrations" },
+    { id: 12, src: "occasion/02.jpg", category: "occasion", title: "Reunion Makeup", desc: "Classic beauty for special gatherings" },
 ];
 
 // Initialize when DOM is loaded
