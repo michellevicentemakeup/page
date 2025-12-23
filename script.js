@@ -29,9 +29,13 @@ const galleryImages = [
   //  { id: 10, src: "photoshoot/02.jpg", category: "photoshoot", title: "Family Portrait", desc: "Soft makeup for family photography" },
     
     // Special Occasion Images
-    { id: 11, src: "occasion/01.jpg", category: "occasion", title: "Anniversary Celebration", desc: "Elegant look for milestone celebrations" },
-    { id: 12, src: "occasion/02.jpg", category: "occasion", title: "Reunion Makeup", desc: "Classic beauty for special gatherings" },
+    { id: 9, src: "events/05.jpg", category: "events", title: "Anniversary Celebration", desc: "Elegant look for milestone celebrations" },
+    { id: 10, src: "events/06.jpg", category: "events", title: "Reunion Makeup", desc: "Classic beauty for special gatherings" },
+	
+	{ id: 11, src: "events/08.jpg", category: "events", title: "Special Event Makeup", desc: "Glamorous look for a gala event" },
+    { id: 12, src: "events/09.jpg", category: "events", title:  "Evening Glamour", desc: "Sophisticated look for an evening event" },
 ];
+
 
 // Initialize when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
@@ -167,9 +171,9 @@ function loadGalleryPreview() {
     // Show only 4 images on homepage - mix of categories
     const previewImages = [
         galleryImages[0],  // First bridal
-        galleryImages[6],  // First event
-        galleryImages[2],  // Another bridal
-        galleryImages[7]   // Another event
+        galleryImages[5],  // First event
+        galleryImages[10],  // Another bridal
+        galleryImages[11]   // Another event
     ];
     
     previewImages.forEach((image, index) => {
